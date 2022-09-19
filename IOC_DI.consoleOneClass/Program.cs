@@ -128,7 +128,7 @@ namespace IOC_DI.ConsoleAppOneClass
                 new Product{Id=1,Name="CİPS1",Price=100,Stock=200},
                 new Product{Id=2,Name="CİPS2",Price=200,Stock=200},
                 new Product{Id=3,Name="CİPS3",Price=300,Stock=200},
-                new Product{Id=4,Name="CİPS4",Price=400,Stock=200},
+                new Product{Id=4,Name="CİPS4",Price=400,Stock=200}, 
             };
             }
             public int Hesapla() { return 100; }
