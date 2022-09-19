@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOC_DI.Console", "IOC_DI.Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOC_DI.consoleOneClass", "IOC_DI.consoleOneClass\IOC_DI.consoleOneClass.csproj", "{80E0675F-8C70-4287-9861-377BEE0066DD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IOC_DI.Web", "IOC_DI.Web\IOC_DI.Web.csproj", "{8C854558-06FF-4BD0-97EB-D645E7A1A0FA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOC_DI.Web", "IOC_DI.Web\IOC_DI.Web.csproj", "{8B0BA9FC-1D52-441F-A772-CFD549848117}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{80E0675F-8C70-4287-9861-377BEE0066DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80E0675F-8C70-4287-9861-377BEE0066DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80E0675F-8C70-4287-9861-377BEE0066DD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8C854558-06FF-4BD0-97EB-D645E7A1A0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8C854558-06FF-4BD0-97EB-D645E7A1A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8C854558-06FF-4BD0-97EB-D645E7A1A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8C854558-06FF-4BD0-97EB-D645E7A1A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B0BA9FC-1D52-441F-A772-CFD549848117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B0BA9FC-1D52-441F-A772-CFD549848117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B0BA9FC-1D52-441F-A772-CFD549848117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B0BA9FC-1D52-441F-A772-CFD549848117}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
