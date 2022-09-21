@@ -7,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<ISingletonDateService, DateService>(); // her requeste 1 nesne örneði
-builder.Services.AddScoped<ISingletonDateService, DateService>();  // her requeste yeni 1 nesne örneði
-builder.Services.AddTransient<ISingletonDateService, DateService>(); // her requestteki her isteðe 1 nesne örneði
+builder.Services.AddScoped<IScopedDateService, DateService>();  // her requeste yeni 1 nesne örneði
+builder.Services.AddTransient<ITransientDateService, DateService>(); // her requestteki her isteðe 1 nesne örneði
 
 var app = builder.Build();
 

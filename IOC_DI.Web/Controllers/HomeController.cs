@@ -15,21 +15,10 @@ public class HomeController : Controller
         _singletonDateService = singletonDateServiceConst;
     }
 
-    public IActionResult Index([FromServices]ISingletonDateService singletonDateServiceMetot)
+    public IActionResult Index([FromServices] ISingletonDateService singletonDateServiceMetot)
     {
         ViewBag.time1 = _singletonDateService.GetDateTime.TimeOfDay.ToString();
-        ViewBag.time2 = singletonDateServiceMetot.GetDateTime.TimeOfDay.ToString(); 
+        ViewBag.time2 = singletonDateServiceMetot.GetDateTime.TimeOfDay.ToString();
         return View();
-    }
-
-    public IActionResult Privacy()
-    {
-        return View();
-    }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
-    {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
     }
 }
